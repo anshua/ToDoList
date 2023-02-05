@@ -1,0 +1,65 @@
+.task {
+  font-size: large;
+  color: aqua;
+}
+
+.input-task {
+    border-radius: 10px;
+    /* padding: 5px; */
+    flex-grow: 0.8;
+    font-size: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 500px;
+  background-color: aquamarine;
+  padding: 20px 0px;
+}
+
+.task-container {
+  display: flex;
+  margin: auto;
+  padding: 10px 20px;
+  justify-content: space-around;
+}
+
+.taskInfo {
+  display: flex;
+  padding: 10px 0px;
+  /* justify-content: left; */
+}
+
+.bottom-container {
+  display: flex;
+  padding: 0px 30px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.save {
+  background-color: rgb(66, 184, 66);
+}
+
+.reset {
+  background-color: rgb(220, 58, 52);
+}
+.add-new {
+  color: black !important;
+  background-color: aqua;
+}
+.button {
+  padding: 8px 15px;
+  border: white;
+  color: white;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.task-list {
+  font-size: 20px;
+}
+
+.checkbox {
+  width: 25px;
+}

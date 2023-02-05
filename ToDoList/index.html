@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todolist.css" />
+    <script src="todolist.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="task-container">
+        <input class="input-task" type="text" id="task-name" />
+        <button class="add-new button" onclick="addTask()">Add Task</button>
+      </div>
+      <hr />
+      <ul id="task-list" class="task-list">
+        <li class="taskInfo">
+          <input type="checkbox" class="checkbox" id="task-1" name="task-1" value="task-1" />
+          <label for="task-1">coding Challenge</label><br />
+        </li>
+        <li class="taskInfo">
+          <input type="checkbox" class="checkbox" id="task-2" name="task-2" value="task-2" />
+          <label for="task-2">JS</label><br />
+        </li>
+        <li class="taskInfo">
+          <input type="checkbox" class="checkbox" id="task-3" name="task-3" value="task-3" />
+          <label for="task-3">reactJS Challenge</label><br />
+        </li>
+      </ul>
+      <div class="bottom-container">
+        <button class="button save">Save</button>
+        <button class="button reset">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
